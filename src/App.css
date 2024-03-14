@@ -1,0 +1,24 @@
+.line::before {
+  content: "";
+  position: absolute;
+  right: 105%;
+  top: 15px;
+  width: 37vw;
+  border: 1px solid gray;
+}
+.line::after {
+  content: "";
+  position: absolute;
+  left: 105%;
+  top: 15px;
+  width: 37vw;
+  border: 1px solid gray;
+}
+.about_title::before {
+  content: "";
+  border: 3px solid #ffe362;
+  margin: 10px;
+}
+.shadow_box {
+  box-shadow: 0px 4px 4.400000095367432px 0px rgba(0, 0, 0, 0.25);
+} 
